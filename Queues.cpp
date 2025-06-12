@@ -41,7 +41,10 @@ class Queues {
         }
         cout << "\nElement terhapus: " << queue_array[FRONT] << "\n";
 
-        
+        if (FRONT == REAR) {
+            FRONT = -1;
+            REAR = -1;
+        }
         
     }
 };
