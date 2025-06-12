@@ -39,6 +39,7 @@ class Queues {
             cout << "Queue underflow\n";
             return;
         }
+        cout << "\nElement terhapus: " << queue_array[FRONT] << "\n";
 
         
         
